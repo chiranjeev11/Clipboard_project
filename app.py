@@ -16,7 +16,7 @@ def paste_fun():
 		last_data[0] = data
 
 		try:
-			
+
 			with open('text_data.txt', 'a') as f:
 
 				f.write(data)
@@ -30,8 +30,8 @@ def paste_fun():
 
 # The key combination to check
 COMBINATIONS = [
-    {keyboard.Key.cmd, keyboard.KeyCode(char='c')},
-    {keyboard.Key.cmd, keyboard.KeyCode(char='C')}
+    {keyboard.Key.ctrl, keyboard.KeyCode(char='c')},		# Use cmd instead of ctrl, if using mac 
+    {keyboard.Key.ctrl, keyboard.KeyCode(char='C')}
 ]
 
 # The currently active modifiers
