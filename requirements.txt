@@ -1,0 +1,10 @@
+clipboard==0.0.4
+keybind==0.3.0
+pynput==1.7.3
+pyobjc-core==7.1
+pyobjc-framework-Cocoa==7.1
+pyobjc-framework-Quartz==7.1
+pyperclip==1.8.2
+python-xlib==0.29
+six==1.15.0
+tk==0.1.0
