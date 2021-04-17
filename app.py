@@ -1,6 +1,7 @@
 import pyperclip as pc 
 from pynput import keyboard
 import tkinter as tk
+import time
 
 
 
@@ -9,7 +10,11 @@ last_data = [None]
 
 def paste_fun():
 
+	time.sleep(0.1)
+	
 	data = pc.paste()
+
+	print(data)
 
 	if data != last_data[0]:
 
